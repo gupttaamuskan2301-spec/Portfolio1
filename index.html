@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muskan Gupta — Cybersecurity Portfolio</title>
+  <style>
+    :root{ --bg:#0f1724; --card:#0b1220; --muted:#94a3b8; --accent:#06b6d4; --glass: rgba(255,255,255,0.04); }
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,#071029 0%, #071a2b 100%); color:#e6eef6; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:28px}
+    .card{width:100%; max-width:880px; background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02)); border-radius:14px; box-shadow:0 10px 30px rgba(2,6,23,0.6); display:grid; grid-template-columns:220px 1fr; gap:20px; padding:22px}
+    .avatar{height:180px; width:180px; border-radius:12px; background:linear-gradient(135deg,var(--accent), #7c3aed); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:32px; color:#021124}
+    .left{display:flex; flex-direction:column; gap:14px; align-items:center}
+    .name{font-size:20px; font-weight:700}
+    .role{font-size:14px; color:var(--muted)}
+    .links{display:flex; gap:8px; flex-wrap:wrap}
+    .btn{display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:10px; background:var(--glass); color:var(--accent); text-decoration:none; font-weight:600; border:1px solid rgba(255,255,255,0.04)}
+    .main{padding:6px 2px}
+    .section{margin-bottom:14px}
+    h3{margin:0 0 8px 0; font-size:15px}
+    p{margin:0; color:#cfe8f5}
+    .summary{color:#cfe8f5; line-height:1.45}
+    .skills{display:flex; gap:8px; flex-wrap:wrap; margin-top:8px}
+    .chip{background:rgba(255,255,255,0.03); padding:6px 10px; border-radius:999px; font-size:13px; color:var(--muted); border:1px solid rgba(255,255,255,0.02)}
+    .footer{display:flex; gap:12px; margin-top:18px}
+    .linkedin{color:#0ea5b3; text-decoration:none; display:inline-flex; align-items:center; gap:8px}
+    @media (max-width:720px){.card{grid-template-columns:1fr; max-width:420px} .left{flex-direction:row; justify-content:space-between; width:100%} .avatar{height:96px; width:96px; font-size:20px}}
+  </style>
+</head>
+<body>
+  <article class="card" role="article" aria-label="Portfolio card for Muskan Gupta">
+    <aside class="left">
+      <div class="avatar" aria-hidden="true">MG</div>
+      <div style="text-align:center;">
+        <div class="name">Muskan Gupta</div>
+        <div class="role">Cybersecurity | BSc IT</div>
+      </div>
+      <div class="links">
+        <a class="btn" href="https://www.linkedin.com/in/muskan-gupta-61665a353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">Open LinkedIn</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="section">
+        <h3>Summary</h3>
+        <p class="summary">Enthusiastic and detail-driven cybersecurity professional with hands-on training in vulnerability assessment, penetration testing, and network security fundamentals. Comfortable working with OWASP methodologies, threat modelling, and basic incident response workflows. Passionate about learning new defensive technologies and applying practical problem-solving to secure applications and systems. Looking for opportunities to contribute to security projects and grow in a collaborative engineering team.</p>
+      </section>
+
+      <section class="section">
+        <h3>Key skills</h3>
+        <div class="skills">
+          <span class="chip">Penetration Testing</span>
+          <span class="chip">Vulnerability Assessment</span>
+          <span class="chip">Network Security</span>
+          <span class="chip">Web App Security (OWASP)</span>
+          <span class="chip">Linux</span>
+          <span class="chip">Basic Scripting (Python)</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Links</h3>
+        <div class="footer">
+          <a class="linkedin" href="https://www.linkedin.com/in/muskan-gupta-61665a353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>
+        </div>
+      </section>
+
+    </main>
+  </article>
+</body>
+</html>
